@@ -1,0 +1,61 @@
+<!-- Color Pallette  #151a2b #beb3b0 #252c77 #b03ed1 #de3c83 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles\index\header\header.css" />
+    <link rel="stylesheet" href="styles\index\body\body.css" />
+    <link rel="stylesheet" href="styles\index\hero\hero.css" />
+    <title>Zachary Dull</title>
+  </head>
+  <body>
+    <section class="header">
+      <div class="leftSide">
+        <img src="images\logo.png" alt="Logo" />
+        Zachary Dull
+      </div>
+      <div class="rightSide">
+        <ul>
+          <li>Projects</li>
+          <li>Skills</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="hero">
+      <div class="leftSide">
+        <h1>Hi, I'm Zack!</h1>
+        <p>
+          A web developer who is always looking to create and learn something
+          new
+        </p>
+      </div>
+      <div class="rightSide">
+        <img id="heroImage" src="images\code.png" alt="Picture of HTML Code" />
+        <div class="buttons">
+          <button class="skills">Skills</button>
+          <button class="Projects">Projects</button>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <form action="https://formsubmit.co/zackdull1999@gmail.com" method="POST">
+        <input
+          type="text"
+          name="name"
+          placeholder="Enter Message Here"
+          required
+        />
+        <input type="email" name="email" placeholder="Email Address" required />
+        <input type="hidden" name="_next" value="html\thankyou.html" />
+        <input type="hidden" name="_subject" value="From Portfolios" />
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <script src="scripts\heroButtonHover.js"></script>
+  </body>
+</html>

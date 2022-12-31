@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  color: #beb3b0;
+  justify-content: space-between;
+}
+.header .leftSide {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: x-large;
+}
+.header .rightSide ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.header img {
+  width: 40px;
+  border-radius: 25px;
+}/*# sourceMappingURL=header.css.map */

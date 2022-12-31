@@ -1,0 +1,65 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10%;
+
+  .leftSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+      width: 50%;
+      padding: 0px;
+      margin: 0;
+      font-size: 60px;
+    }
+
+    p {
+      width: 60%;
+      font-size: xx-large;
+    }
+  }
+
+  .rightSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    justify-content: flex-end;
+
+    img {
+      width: 80%;
+      min-width: 600px;
+      height: auto;
+    }
+
+    .buttons {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+    }
+
+    button {
+      border-style: none;
+      border-radius: 25px;
+      width: 12rem;
+      font-weight: bolder;
+      font-size: large;
+      padding: 1rem;
+      background-image: linear-gradient(to right, #b03ed1, #de3c83);
+
+      &:hover {
+        cursor: pointer;
+        scale: 1.1;
+      }
+
+      &:active {
+        cursor: pointer;
+        scale: 1;
+        opacity: 0.9;
+      }
+    }
+  }
+}
