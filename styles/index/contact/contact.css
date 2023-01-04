@@ -1,0 +1,94 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+}
+.contact h1 {
+  font-size: xx-large;
+}
+.contact form {
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  font-size: x-large;
+  padding-bottom: 10%;
+  gap: 2rem;
+}
+.contact form .name,
+.contact form .contactInfo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.contact form .name div,
+.contact form .contactInfo div {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.contact form .message {
+  padding-top: 20px;
+  width: 100%;
+}
+.contact form .message textarea {
+  min-width: 100%;
+  min-height: 3.5rem;
+  color: #beb3b0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 2px solid #b03ed1;
+  border-radius: 10px;
+  font-size: x-large;
+}
+.contact form .message textarea::-moz-placeholder {
+  font-size: x-large;
+}
+.contact form .message textarea:-ms-input-placeholder {
+  font-size: x-large;
+}
+.contact form .message textarea::placeholder {
+  font-size: x-large;
+}
+.contact form input {
+  padding-left: 20px;
+  color: #beb3b0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 2px solid #b03ed1;
+  height: 3rem;
+  border-radius: 10px;
+  font-size: large;
+}
+.contact form input::-moz-placeholder {
+  font-size: large;
+}
+.contact form input:-ms-input-placeholder {
+  font-size: large;
+}
+.contact form input::placeholder {
+  font-size: large;
+}
+.contact form button {
+  border-style: none;
+  border-radius: 25px;
+  width: 12rem;
+  font-weight: bolder;
+  font-size: large;
+  padding: 1rem;
+  background-image: linear-gradient(to right, #b03ed1, #de3c83);
+}
+.contact form button:hover {
+  cursor: pointer;
+  scale: 1.1;
+}
+.contact form button:active {
+  cursor: pointer;
+  scale: 1;
+  opacity: 0.9;
+}/*# sourceMappingURL=contact.css.map */
